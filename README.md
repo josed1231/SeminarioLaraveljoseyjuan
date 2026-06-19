@@ -38,10 +38,20 @@ docker-compose up -d
 El flag -d significa "detached" (corre en segundo plano). Si se desean ver los logs en vivo, se quita el -d.
 
 ### 4. Verificar que todo funciona
-PHP/Apache: Abrir el navegador y acceder a http://localhost:8080. Se debe ver página de información de PHP (phpinfo()).
+PHP/Apache: Abrir el navegador y acceder a http://localhost:8080. 
+```
+Se debe ver página de información de PHP (phpinfo()).
+```
+
 phpMyAdmin: Acceder a http://localhost:8081. Usuario: root, Contraseña: root_password.
+```
+```
+
 Base de datos: conectarse desde phpMyAdmin o desde su código PHP usando:
+
+```
    Host: db (el nombre del servicio en el compose)
    Usuario: root (o dev_user)
    Contraseña: root_password (o dev_password)
    Base de datos: seminario_db
+```
