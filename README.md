@@ -24,4 +24,6 @@ url para ingresar: http://localhost:8080/array/array_demo.php/
 imagen del array funcionando con modificacion:
 <img width="828" height="525" alt="image" src="https://github.com/user-attachments/assets/6c664cda-9804-4449-b276-5885ba7fd737" />
 
+imagen del formulario:
+<img width="953" height="835" alt="image" src="https://github.com/user-attachments/assets/6bd98311-c0ff-4d7c-99a8-4c0d7f47c50f" />
 
