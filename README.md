@@ -14,3 +14,14 @@ imagen del login php basico:
 para que aparezca hay que ingresar a la url: http://localhost:8080/sintaxis-variables/
 
 <img width="873" height="722" alt="image" src="https://github.com/user-attachments/assets/4cf4d316-ed79-4fb2-8aec-f5ddaab3992f" />
+
+imagen del array funcionando:
+
+url para ingresar: http://localhost:8080/array/array_demo.php/
+
+<img width="957" height="674" alt="image" src="https://github.com/user-attachments/assets/95d04b8c-6fc9-4c22-b5cc-807c5aae0698" />
+
+imagen del array funcionando con modificacion:
+<img width="828" height="525" alt="image" src="https://github.com/user-attachments/assets/6c664cda-9804-4449-b276-5885ba7fd737" />
+
+
