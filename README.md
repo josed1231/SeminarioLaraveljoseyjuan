@@ -30,3 +30,7 @@ imagen del formulario:
 imagen del poo funcional:
 <img width="957" height="702" alt="image" src="https://github.com/user-attachments/assets/6bc4b747-6760-40db-846f-3cfac43ab957" />
 
+imagen de la lista de la db y su script:
+<img width="958" height="676" alt="image" src="https://github.com/user-attachments/assets/6711caa5-5295-4d1e-b72c-799a91ea9b57" />
+
+<img width="729" height="824" alt="image" src="https://github.com/user-attachments/assets/3e1d82ca-a903-4b69-a85b-fb305e05eb55" />
