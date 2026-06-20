@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: db
--- Tiempo de generación: 20-06-2026 a las 18:48:14
+-- Tiempo de generación: 20-06-2026 a las 19:07:16
 -- Versión del servidor: 10.8.8-MariaDB-1:10.8.8+maria~ubu2204
 -- Versión de PHP: 8.3.26
 
@@ -49,11 +49,19 @@ INSERT INTO `categoria` (`id`, `nombre`) VALUES
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL,
   `titulo` varchar(200) NOT NULL,
-  `postscol` varchar(45) NOT NULL,
   `contenido` text NOT NULL,
   `users_id` int(11) NOT NULL,
   `categoria_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
+
+--
+-- Volcado de datos para la tabla `posts`
+--
+
+INSERT INTO `posts` (`id`, `titulo`, `contenido`, `users_id`, `categoria_id`) VALUES
+(1, 'mi primer post', 'contenido del post 1', 1, 2),
+(2, 'segundo post', 'contenido del post 2', 1, 2),
+(3, 'post de maria', 'hola mundo', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -66,6 +74,14 @@ CREATE TABLE `users` (
   `nombre` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_general_ci;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `nombre`, `email`) VALUES
+(1, 'Carlos Pérez', 'carlos@gmail.com'),
+(2, 'Maria Gómez', 'maria@gmail.com');
 
 --
 -- Índices para tablas volcadas
@@ -106,13 +122,13 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT de la tabla `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Restricciones para tablas volcadas
