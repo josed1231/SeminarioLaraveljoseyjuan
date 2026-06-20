@@ -8,3 +8,6 @@ imagen del php info:
 
 imagen del phpmyadmin:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/307f3003-1aa3-4978-b4c0-1c9eb5fe9715" />
+
+imagen del login php basico:
+<img width="911" height="754" alt="image" src="https://github.com/user-attachments/assets/8ef9a252-221c-406c-b894-8958c8aa0921" />
