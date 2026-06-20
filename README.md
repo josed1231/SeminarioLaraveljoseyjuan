@@ -27,3 +27,6 @@ imagen del array funcionando con modificacion:
 imagen del formulario:
 <img width="953" height="835" alt="image" src="https://github.com/user-attachments/assets/6bd98311-c0ff-4d7c-99a8-4c0d7f47c50f" />
 
+imagen del poo funcional:
+<img width="957" height="702" alt="image" src="https://github.com/user-attachments/assets/6bc4b747-6760-40db-846f-3cfac43ab957" />
+
