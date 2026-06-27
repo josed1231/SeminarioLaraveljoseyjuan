@@ -1,16 +1,19 @@
 <?php
-require_once 'POO/Producto.php';
+require_once 'controllers/UserController.php';
 
-$prod1 = new Producto("laptop gamer", 1500);
-$prod2 = new Producto("mouse inalambrico", 80);
-$prod3 = new Producto("monitor 4K", 1200, 0.19);
+$controller = new UserController();
 
-echo "<h2>Catalogo POO</h2>";
-echo "<ul>";
-echo "<li>" . $prod1->getInfo() . "</li>";
-echo "<li>" . $prod2->getInfo() . "</li>";
-echo "<li>" . $prod3->getInfo() . "</li>";
-echo "</lu>";
+$action = $_GET['action'] ?? 'index';
 
-
+if ($action === 'index') {
+    $controller->index();
+} elseif ($action === 'create') {
+    $controller->create();
+} elseif ($action === 'delete') {
+    $controller->delete();
+} elseif ($action === 'edit') {
+    $controller->edit();
+} else {
+    echo "Página no encontrada";
+}
 ?>
