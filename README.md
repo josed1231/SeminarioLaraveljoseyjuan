@@ -34,3 +34,22 @@ imagen de la lista de la db y su script:
 <img width="958" height="676" alt="image" src="https://github.com/user-attachments/assets/6711caa5-5295-4d1e-b72c-799a91ea9b57" />
 
 <img width="729" height="824" alt="image" src="https://github.com/user-attachments/assets/3e1d82ca-a903-4b69-a85b-fb305e05eb55" />
+
+imagen del index como MVC:
+
+url: http://localhost:8080/
+
+<img width="950" height="1029" alt="image" src="https://github.com/user-attachments/assets/562f2e7b-2bd8-4873-a35b-ba81a36c15af" />
+
+imagen de la interfaz borrando algun usuario de la base de datos:
+
+<img width="962" height="1029" alt="image" src="https://github.com/user-attachments/assets/b7c9117c-503a-438a-9c21-b5d08f700c16" />
+
+imagen del usuario creado correctamente:
+
+<img width="901" height="848" alt="image" src="https://github.com/user-attachments/assets/7ccab73c-5a87-4667-a519-6a72ba78de3f" />
+
+imagen de la interfaz para crear users:
+
+<img width="915" height="663" alt="image" src="https://github.com/user-attachments/assets/a5f3c086-f824-4834-8033-b3b6b5527ce8" />
+
